@@ -1,0 +1,165 @@
+.header{
+    background-image: url(./pexels-pixabay-164634.jpg);
+    color: rgb(219, 15, 15);
+    height: 75vh;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+
+}
+.titulo{
+    text-align: center;
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    
+}
+.titulo h1{
+    font-size: 70px;
+
+    
+}
+h2{
+    text-align: center;
+    font-size: 400px;
+    color: rgb(31, 7, 247);
+    
+}
+.barra{
+    background: brown;
+    padding-bottom: 20px;
+}
+
+
+ul{
+    display: flex;
+    color: blanchedalmond;
+}
+li{
+    list-style: none;
+    color: blanchedalmond;
+}
+li a{
+    color: blanchedalmond;
+    font-size: 30px;
+    padding: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+li a:hover{
+    color: blanchedalmond;
+}
+.servicios{ 
+   width: 100%;
+   background-image: url(./pexels-derice-jason-fahnkow-4392657.jpg);
+
+ }
+ .cajaTarjetas{
+     display: flex;
+     justify-content: space-evenly;
+     flex-wrap: wrap;
+
+ }
+ .card{
+     width: 22% !important;
+
+ }
+ .img{
+     object-fit: cover;
+
+ }
+
+.nosotros{
+    padding-top: 50px;
+    background-color: black;
+
+    
+}
+.nosotros h2{
+    color:white;
+}
+.auxilio {
+    color: lawngreen;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(43, 37, 37);
+}
+.contactos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    background-color: cornflowerblue;
+}
+.contactos a{
+    font-size: 40px;
+    margin-right: 20px;
+    color: cornsilk;
+}
+footer {
+    display: flex;
+    align-items: center;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+
+}
+.cartel{
+     padding: 20px;
+     width: 100%;
+     border: 2px solid white;
+     background-color: white;
+     color: white;
+     text-align: center;
+     font-size: 40px;
+     color: black;
+
+}
+
+
+@media screen and (max-widh:650px) {
+    .titulo{
+        padding: 0 10px;
+
+    }
+    .titulo h1{
+        font-size: 35px;
+
+    }
+    ul{
+        flex-direction: column;
+        padding: 0;
+
+
+    }
+    li a{
+        font-size: 20px;
+
+    }
+    .barra{
+        padding: 1px;
+        margin-left: 0;
+
+    }
+    .card{
+        width: 70% !important;
+        margin-bottom: 20px;
+
+
+    }
+    .auxilio{
+        color: cadetblue;
+        margin-top: 20px;
+        background-color: rgb(48,45,45);
+        font-size: 10px;
+    }
+    .auxilio h3{
+        font-size: 20px;
+
+   }
+}
